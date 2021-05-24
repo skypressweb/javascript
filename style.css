@@ -21,6 +21,10 @@ body {
   background: linear-gradient(to top left, #2857b4, #6094cf);
 }
 
+.main-title {
+  display: flx;
+}
+
 .show-modal {
   font-size: 2rem;
   font-weight: 600;
