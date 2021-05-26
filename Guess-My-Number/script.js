@@ -62,8 +62,8 @@ document.querySelector('.check').addEventListener('click', function () {
   if (!guess) {
     displayMessage('🛑 Please enter a number');
   } else if (guess === secretNumber) {
-    displayMessage('🎉 That is correct!');
-    newTitle('You Got It! Well Done!');
+    displayMessage('🙌 You Got It!');
+    newTitle('Well Done Yohanna!');
     displayBackground('#60b347');
     document.querySelector('.number').style.width = '30rem';
     document.querySelector('.number').textContent = secretNumber;
