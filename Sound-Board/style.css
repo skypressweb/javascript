@@ -18,6 +18,11 @@ body {
   overflow: hidden;
 }
 
+h1 {
+  font-size: 4rem;
+  color: aqua;
+}
+
 .btn {
   background-color: #00bbf9;
   border-radius: 5px;
