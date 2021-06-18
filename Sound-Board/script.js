@@ -1,4 +1,17 @@
-const sounds = ['applause', 'boo', 'gasp', 'tada', 'victory', 'wrong'];
+const sounds = [
+  'bird',
+  'canary',
+  'cardinal',
+  'cat',
+  'chicks',
+  'cows',
+  'crow',
+  'dog',
+  'donkey',
+  'duck',
+  'elephant',
+  'geese',
+];
 
 sounds.forEach(sound => {
   const btn = document.createElement('button');
