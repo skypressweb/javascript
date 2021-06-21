@@ -15,12 +15,17 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
-  overflow: hidden;
 }
 
 h1 {
   font-size: 4rem;
   color: aqua;
+  width: 100%;
+}
+
+img {
+  width: 500px;
+  height: 335px;
 }
 
 .btn {

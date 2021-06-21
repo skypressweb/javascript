@@ -1,5 +1,4 @@
 const sounds = [
-  'bird',
   'canary',
   'cardinal',
   'cat',
@@ -13,6 +12,12 @@ const sounds = [
   'geese',
 ];
 
+function showImage(image) {
+  const photo = document.getElementById('images');
+  photo.classList.add('image');
+  photo.innerHTML = `<img src="/images/${image}.jpg" />`;
+}
+
 sounds.forEach(sound => {
   const btn = document.createElement('button');
   btn.classList.add('btn');
@@ -21,6 +26,7 @@ sounds.forEach(sound => {
   btn.addEventListener('click', () => {
     stopAudio();
     document.getElementById(sound).play();
+    showImage(sound);
   });
   document.getElementById('buttons').appendChild(btn);
 });
