@@ -15,7 +15,7 @@ const sounds = [
 function showImage(image) {
   const photo = document.getElementById('images');
   photo.classList.add('image');
-  photo.innerHTML = `<img src="/images/${image}.jpg" />`;
+  photo.innerHTML = `<img src="https://skypressweb.github.io/javascript/Sound-Board/images/${image}.jpg" />`;
 }
 
 sounds.forEach(sound => {
