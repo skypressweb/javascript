@@ -11,7 +11,7 @@ const sounds = [
   'elephant',
   'geese',
 ];
-
+// Function for showing images
 function showImage(image) {
   const photo = document.getElementById('images');
   photo.classList.add('image');
